@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電卓</title>
+    <!--  -->
+    <link rel="stylesheet" href="dentaku.css">
+<body>
+   
+    <input type="text" id="calculatorInput" readonly>
+    
+    
+<br>
+<!-- 上から1段目（7~9 ÷) -->
+    <section class="box">
+    <div><button onclick="append( '7' )" >7</button></div>
+    <div><button  onclick="append( '8' )">8</button></div>
+    <div><button  onclick="append( '9' )" >9</button></div>
+    <div><button  onclick="append( '/' )" >÷</button></div>
+    </section>
+<br>
+ <!-- 上から2段目（4~6 ×） -->
+    <section class="box">
+        <div><button onclick="append( '4' )" >4</button></div>
+        <div><button onclick="append( '5' )">5</button></div>
+        <div><button onclick="append( '6' )" >6</button></div>
+        <div><button onclick="append( '*' )" >×</button></div>
+    </section>    
+
+        <br>
+            <!-- 上から3段目 -->
+    <section class="box">
+        <div><button onclick="append( '1' )" >1</button></div>
+        <div><button onclick="append( '2' )" >2</button></div>
+        <div><button onclick="append( '3' )" >3</button></div>
+        <div><button onclick="append( '-' )" >-</button></div>
+    </section>    
+
+        <br>
+          <!-- 上から4段目（0/C/=/+) -->
+    <section class="box">
+        <div><button onclick="append( '0' )" >0</button></div>
+        <div><button onclick="clearInput()">C</button></div>
+        <div><button onclick="calc()" >=</button></div>
+        <div><button onclick="append( '+' )" >+</button></div>
+       
+    </section>
+        <script src="dentaku.js"></script>
+</body>
+</html>

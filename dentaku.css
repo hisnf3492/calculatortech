@@ -1,0 +1,40 @@
+button {
+    
+    background-color: white;
+    border: 0.2px solid ;
+    border-radius: 14px;
+    height: 30px;
+    width: 30px;
+   font-weight: bold;
+   
+    
+}
+button:hover{
+    background-color: rgb(136, 164, 155);
+    opacity: 1;
+}
+.box {
+    
+    margin-top: auto;
+    
+   display: flex;
+   
+   text-align: center;
+  
+   
+}
+
+
+
+input {
+    border: 1px solid;
+    border-radius: 8px;
+    height: 18px;
+    display: flex;
+    width: 150px;
+    
+}
+body {
+    background-color: rgb(133, 162, 170);
+   
+}
