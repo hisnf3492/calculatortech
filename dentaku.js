@@ -193,8 +193,3 @@ function calc() {
     }
 }
 
-function show(){
-    var array = ["大吉", "中吉", "小吉"];
-    var random = Math.random() * 3;
-    var message = array[random];
-}
